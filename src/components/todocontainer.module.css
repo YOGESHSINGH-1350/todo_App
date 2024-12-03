@@ -1,0 +1,6 @@
+.todocontainer{
+    width: 90%;
+    text-transform: capitalize;
+    border: .1px solid black;
+    /* margin: 5px px ; */
+}
