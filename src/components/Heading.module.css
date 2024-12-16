@@ -1,8 +1,11 @@
-.todoHeading{
+.todoHeading {
     width: 100%;
     font-size: 50px;
     font-weight: 700;
-    background-color:deepskyblue;
+    background: linear-gradient(to right, deepskyblue, #00bfff);
+    color: white;
     text-align: center;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-

@@ -7,8 +7,8 @@ function Items({todoname,tododate}) {
     <div className="container text-center" id={style.items}>
     <div className="row">        
       <div className="col-4">{todoname}</div>
-      <div className="col-4">{tododate}</div>
-      <div className="col-2"><button type="button" className="btn btn-danger" 
+      <div className="col-5">{tododate}</div>
+      <div className="col-2 "><button type="button" className="btn btn-danger" 
       onClick={()=>{deletedItem(todoname)}}>Delete</button>
       </div>
     </div>
